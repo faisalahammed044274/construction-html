@@ -209,6 +209,11 @@ label {
   vertical-align: middle;
   white-space: nowrap;
 }
+
+.btn .brand-btn {
+  color: #fff;
+  background: #fbba42;
+}
 .breadcrumb > .active {
   color: #888;
 }
@@ -218,7 +223,7 @@ label {
   left: 20px;
   line-height: 40px;
   opacity: 0;
-  position: absolute;
+  position: absolute;f
   text-align: center;
   top: 50%;
   transform: translateY(-50%);
@@ -552,5 +557,57 @@ label {
 .single-features .text-center > img {
   margin-bottom: 30px;
 }
+.single-features img {
+  margin-bottom: 38px;
+}
 
 /**** Feature area  end****/
+/** Promotion area start**/
+
+.promo-text .btn {
+  font-size: 12px;
+  font-weight: 600;
+  color: #fefefe;
+  background: #fbba42;
+  border: 2px solid #fbba42;
+  padding: 20px 45px;
+}
+
+.promo-text .btn:hover {
+  border: 2px solid #333;
+  transition: all 0.3s ease 0;
+}
+
+promo-text > h3 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+promo-text > span {
+  color: #777777;
+  display: block;
+  font-size: 10px;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+promot-text p{
+  font-size: 17px;
+  line-height: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.promo-area {
+  position: relative;
+}
+
+.promo-area{
+  position:absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+/** Promotion area end**/
